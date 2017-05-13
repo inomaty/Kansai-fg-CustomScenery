@@ -1,5 +1,5 @@
-# RJSS-fg-CustomScenery
-SDJ/RJSS Sendai Airport in Japan.
+# Kansai-fg-CustomScenery
+Kansai ACA area in Japan.
 
 Japanese
 このデータはオープンソースのフライトシミュレータ「FlightGear[日本語サイト](http://flightgear.jpn.org/),[公式サイト](http://www.flightgear.org/)用のシーナリーデータです。関西国際空港の進入管制区を（おおよそ）含めた範囲のシーナリーとなっています。  
