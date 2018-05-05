@@ -8,7 +8,8 @@ Japanese
 全てのデータは[GNU GPLライセンス](https://www.ipa.go.jp/files/000028332.html)となっています。
 
 
-当シーナリーデータに関する情報はFlightGear日本語サイトの該当ページ(http://flightgear.jpn.org/modules/d3forum/index.php?topic_id=866)をご覧ください。特に水上機に関する情報はご覧になる価値があるかと思います。
+当シーナリーデータに関する情報はFlightGear日本語サイトの該当ページ(http://flightgear.jpn.org/modules/d3forum/index.php?topic_id=866)
+をご覧ください。特に水上機に関する情報はご覧になる価値があるかと思います。
 
 
 English
