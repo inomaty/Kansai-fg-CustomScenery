@@ -42,6 +42,23 @@
  </animation>
 
  <animation>
+  <type>rotate</type>
+  <object-name>RedFlash.1</object-name>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>90.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>4.7</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+ 
+ <animation>
   <type>flash</type>
   <object-name>RedFlash.1</object-name>
   <center>
@@ -65,6 +82,23 @@
  </animation>
 
  <animation>
+  <type>rotate</type>
+  <object-name>RedFlash.2</object-name>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>90.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>4.7</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+ 
+ <animation>
   <type>flash</type>
   <object-name>RedFlash.2</object-name>
   <center>
@@ -90,6 +124,24 @@
  </animation>
 
  <animation>
+  <type>rotate</type>
+  <object-name>RedFlash.3</object-name>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>90.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>4.7</z-m>
+<!--   <z-m>70</z-m>-->
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+ 
+ <animation>
   <type>flash</type>
   <object-name>RedFlash.3</object-name>
   <center>
@@ -114,6 +166,24 @@
  </animation>
 
  <animation>
+  <type>rotate</type>
+  <object-name>RedFlash.4</object-name>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>90.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>4.7</z-m>
+<!--   <z-m>140</z-m>-->
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+ 
+ <animation>
   <type>flash</type>
   <object-name>RedFlash.4</object-name>
   <center>
@@ -130,250 +200,4 @@
   <power>100</power>
  </animation>
 
- 
- <!-- New section -->
-  <animation>
-  <type>rotate</type>
-  <object-name>Light1</object-name>
-  <property>/sim/time/elapsed-sec</property>
-  <factor>30.0</factor>
-  <center>
-   <x-m>0</x-m>
-   <y-m>0</y-m>
-   <z-m>4.7</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>0</y>
-   <z>1</z>
-  </axis>
- </animation>
- 
- 
-  <animation>
-  <type>range</type>
-  <object-name>RedFlash.1_2</object-name>
-  <min-m>0</min-m>
-  <max-m>2500</max-m>
- </animation>
-
-  <animation>
-  <type>flash</type>
-  <object-name>RedFlash.1_2</object-name>
-  <center>
-   <x-m>0</x-m>
-   <y-m>-0.35</y-m>
-   <z-m>4.7</z-m>
-  </center>
-  <axis>
-   <x>-0.8660</x>
-   <y>-0.5</y>
-   <z>0.1</z>
-  </axis>
-  <power>100</power>
- </animation>
-
- <animation>
-  <type>range</type>
-  <object-name>RedFlash.2_2</object-name>
-  <min-m>2400</min-m>
-  <max-m>5000</max-m>
- </animation>
-
-
- <animation>
-  <type>flash</type>
-  <object-name>RedFlash.2_2</object-name>
-  <center>
-   <x-m>0</x-m>
-   <y-m>-0.35</y-m>
-   <z-m>4.7</z-m>
-<!--   <z-m>17.9</z-m>-->
-  </center>
-  <axis>
-   <x>-0.8660</x>
-   <y>-0.5</y>
-   <z>0.1</z>
-  </axis>
-  <power>100</power>
- </animation>
-
-
- <animation>
-  <type>range</type>
-  <object-name>RedFlash.3_2</object-name>
-  <min-m>4900</min-m>
-  <max-m>10000</max-m>
- </animation>
-
- <animation>
-  <type>flash</type>
-  <object-name>RedFlash.3_2</object-name>
-  <center>
-   <x-m>0</x-m>
-   <y-m>-0.35</y-m>
-   <z-m>4.7</z-m>
-  </center>
-  <axis>
-   <x>-0.8660</x>
-   <y>-0.5</y>
-   <z>0.1</z>
-  </axis>
-  <power>100</power>
- </animation>
-
- <animation>
-  <type>range</type>
-  <object-name>RedFlash.4_2</object-name>
-  <min-m>9900</min-m>
-  <max-m>20000</max-m>
- </animation>
-
- <animation>
-  <type>flash</type>
-  <object-name>RedFlash.4_2</object-name>
-  <center>
-   <x-m>0</x-m>
-   <y-m>-0.35</y-m>
-   <z-m>4.7</z-m>
-<!--   <z-m>140</z-m>-->
-  </center>
-  <axis>
-   <x>-0.8660</x>
-   <y>-0.5</y>
-   <z>0.1</z>
-  </axis>
-  <power>100</power>
- </animation>
- 
-   <animation>
-  <type>rotate</type>
-  <object-name>Light2</object-name>
-  <property>/sim/time/elapsed-sec</property>
-  <factor>30.0</factor>
-  <center>
-   <x-m>0</x-m>
-   <y-m>0</y-m>
-   <z-m>4.7</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>0</y>
-   <z>1</z>
-  </axis>
- </animation>
- 
-   <animation>
-  <type>range</type>
-  <object-name>RedFlash.1_3</object-name>
-  <min-m>0</min-m>
-  <max-m>2500</max-m>
- </animation>
-
-  <animation>
-  <type>flash</type>
-  <object-name>RedFlash.1_3</object-name>
-  <center>
-   <x-m>0</x-m>
-   <y-m>-0.35</y-m>
-   <z-m>4.7</z-m>
-  </center>
-  <axis>
-   <x>0.8660</x>
-   <y>-0.5</y>
-   <z>0.1</z>
-  </axis>
-  <power>100</power>
- </animation>
-
- <animation>
-  <type>range</type>
-  <object-name>RedFlash.2_3</object-name>
-  <min-m>2400</min-m>
-  <max-m>5000</max-m>
- </animation>
-
-
- <animation>
-  <type>flash</type>
-  <object-name>RedFlash.2_3</object-name>
-  <center>
-   <x-m>0</x-m>
-   <y-m>-0.35</y-m>
-   <z-m>4.7</z-m>
-<!--   <z-m>17.9</z-m>-->
-  </center>
-  <axis>
-   <x>0.8660</x>
-   <y>-0.5</y>
-   <z>0.1</z>
-  </axis>
-  <power>100</power>
- </animation>
-
-
- <animation>
-  <type>range</type>
-  <object-name>RedFlash.3_3</object-name>
-  <min-m>4900</min-m>
-  <max-m>10000</max-m>
- </animation>
-
- <animation>
-  <type>flash</type>
-  <object-name>RedFlash.3_3</object-name>
-  <center>
-   <x-m>0</x-m>
-   <y-m>-0.35</y-m>
-   <z-m>4.7</z-m>
-  </center>
-  <axis>
-   <x>0.8660</x>
-   <y>-0.5</y>
-   <z>0.1</z>
-  </axis>
-  <power>100</power>
- </animation>
-
- <animation>
-  <type>range</type>
-  <object-name>RedFlash.4_3</object-name>
-  <min-m>9900</min-m>
-  <max-m>20000</max-m>
- </animation>
-
- <animation>
-  <type>flash</type>
-  <object-name>RedFlash.4_3</object-name>
-  <center>
-   <x-m>0</x-m>
-   <y-m>-0.35</y-m>
-   <z-m>4.7</z-m>
-<!--   <z-m>140</z-m>-->
-  </center>
-  <axis>
-   <x>0.8660</x>
-   <y>-0.5</y>
-   <z>0.1</z>
-  </axis>
-  <power>100</power>
- </animation>
- 
-   <animation>
-  <type>rotate</type>
-  <object-name>Light3</object-name>
-  <property>/sim/time/elapsed-sec</property>
-  <factor>30.0</factor>
-  <center>
-   <x-m>0</x-m>
-   <y-m>0</y-m>
-   <z-m>4.7</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>0</y>
-   <z>1</z>
-  </axis>
- </animation>
- 
 </PropertyList>
